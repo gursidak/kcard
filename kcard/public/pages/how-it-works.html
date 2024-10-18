@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Coming Soon</title>
+    <style>
+        /* Global Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body Styles */
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Main Container */
+        .coming-soon {
+            max-width: 600px;
+            padding: 30px;
+            border: 2px solid #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+        }
+
+        h1 {
+            font-size: 3.5rem;
+            letter-spacing: 3px;
+        }
+
+        p {
+            font-size: 1.2rem;
+            margin: 20px 0;
+        }
+
+        .coming-soon span {
+            font-size: 2.2rem;
+            display: block;
+            margin: 30px 0;
+        }
+
+        /* Social Media Icons */
+        .social-icons {
+            margin-top: 20px;
+        }
+
+        .social-icons a {
+            text-decoration: none;
+            color: #fff;
+            margin: 0 10px;
+            font-size: 1.5rem;
+            transition: color 0.3s;
+        }
+
+        .social-icons a:hover {
+            color: #888;
+        }
+
+        /* Responsive Design */
+        @media only screen and (max-width: 768px) {
+            h1 {
+                font-size: 2.5rem;
+            }
+
+            p {
+                font-size: 1rem;
+            }
+
+            .coming-soon span {
+                font-size: 1.8rem;
+            }
+
+            .social-icons a {
+                font-size: 1.2rem;
+                margin: 0 8px;
+            }
+        }
+
+        @media only screen and (max-width: 480px) {
+            h1 {
+                font-size: 2rem;
+            }
+
+            p {
+                font-size: 0.9rem;
+            }
+
+            .coming-soon span {
+                font-size: 1.5rem;
+            }
+
+            .social-icons a {
+                font-size: 1rem;
+                margin: 0 5px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="coming-soon">
+        <h1>Coming Soon</h1>
+        <p> Stay tuned for something amazing!</p>
+        <span>Launching Soon!</span>
+    </div>
+</body>
+</html>
